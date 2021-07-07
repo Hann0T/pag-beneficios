@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/glider.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -28,8 +29,69 @@
         </div>
     </section>
 
-    <section class="carrousel">
-        <!-- carrousel -->
+    <section class="carousel container">
+        <div class="carousel__container">
+				<button aria-label="anterior" class="carousel__prev carousel__arrow"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="carousel__list">
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/cuidado-personal.svg" alt="Cuidado personal">
+                        </figure>
+                        <p>Cuidado personal</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/salud.svg" alt="Salud">
+                        </figure>
+                        <p>Salud</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/educacion.svg" alt="Educación">
+                        </figure>
+                        <p>Educación</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/hogar-servicios.svg" alt="Hogar y Servicios">
+                        </figure>
+                        <p>Hogar y Servicios</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/moda-calzado.svg" alt="Moda y Calzado">
+                        </figure>
+                        <p>Moda y Calzado</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/restaurante.svg" alt="Restaurante">
+                        </figure>
+                        <p>Restaurante</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/viaje.svg" alt="Viajes">
+                        </figure>
+                        <p>Viajes</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/cuidado-personal.svg" alt="Cuidado personal">
+                        </figure>
+                        <p>Cuidado personal</p>
+                    </div>
+                    <div class="carousel__item">
+                        <figure class="carousel__image">
+                            <img src="./img/salud.svg" alt="Salud">
+                        </figure>
+                        <p>Salud</p>
+                    </div>
+                </div>
+
+				<button aria-label="anterior" class="carousel__next carousel__arrow"><i class="fas fa-chevron-right"></i></button>
+        </div>
     </section>
 
     <section class="categories">
@@ -190,5 +252,8 @@
         </div>
     </section>
 
+    <script src="https://kit.fontawesome.com/8241d0e582.js" crossorigin="anonymous"></script>
+	<script src="./js/glider.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
