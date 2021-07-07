@@ -1,0 +1,47 @@
+<svg id="restaurante" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Grupo_898" data-name="Grupo 898" transform="translate(10 36.999)">
+    <g id="Grupo_897" data-name="Grupo 897">
+      <path id="Trazado_1316" data-name="Trazado 1316" d="M128.813,317.914c-.058-.1-.119-.19-.18-.272a3.9,3.9,0,0,0-5.439-.9l-11.18,7.983h-11.68a1,1,0,1,1,0-2h6.5a3.5,3.5,0,0,0,3.5-3.5c0-.011,0-.1,0-.113a3.512,3.512,0,0,0-3.578-3.387H93.745a5.018,5.018,0,0,0-3.161,1.161l-4.89,4.07a1,1,0,0,0-.36.769v12a1,1,0,0,0,1,1h24.811a7.016,7.016,0,0,0,4.456-1.609L127.724,323.1A3.93,3.93,0,0,0,128.813,317.914Zm-2.3,3.6-12.181,10.061a5.018,5.018,0,0,1-3.183,1.15H87.334V322.2l4.531-3.772a3.008,3.008,0,0,1,1.889-.7h13.032a1.528,1.528,0,0,1,1.548,1.5,1.5,1.5,0,0,1-1.5,1.5h-6.5a3,3,0,0,0,0,6h12a1.013,1.013,0,0,0,.583-.186l11.442-8.171a1.9,1.9,0,0,1,2.655.444c.03.041.057.083.083.126A1.942,1.942,0,0,1,126.508,321.516Z" transform="translate(-85.334 -315.726)" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_900" data-name="Grupo 900" transform="translate(0 41)">
+    <g id="Grupo_899" data-name="Grupo 899">
+      <path id="Trazado_1317" data-name="Trazado 1317" d="M10.97,349.867H0v2H9.97v15H0v2H10.97a1,1,0,0,0,1-1v-17A1,1,0,0,0,10.97,349.867Z" transform="translate(0 -349.867)" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_902" data-name="Grupo 902" transform="translate(2 50)">
+    <g id="Grupo_901" data-name="Grupo 901">
+      <path id="Trazado_1318" data-name="Trazado 1318" d="M20.067,426.667a3,3,0,1,0,3,3A3,3,0,0,0,20.067,426.667Zm0,4a1,1,0,1,1,1-1A1,1,0,0,1,20.067,430.667Z" transform="translate(-17.067 -426.667)" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_904" data-name="Grupo 904" transform="translate(0 31)">
+    <g id="Grupo_903" data-name="Grupo 903">
+      <path id="Trazado_1319" data-name="Trazado 1319" d="M59,264.533H1a1,1,0,0,0-1,1,7.008,7.008,0,0,0,7,7H53a7.009,7.009,0,0,0,7-7A1,1,0,0,0,59,264.533Zm-6,6H7a5.008,5.008,0,0,1-4.9-4H57.9A5.008,5.008,0,0,1,53,270.533Z" transform="translate(0 -264.533)" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_906" data-name="Grupo 906" transform="translate(4 5)">
+    <g id="Grupo_905" data-name="Grupo 905">
+      <path id="Trazado_1320" data-name="Trazado 1320" d="M60.133,42.667a26.03,26.03,0,0,0-26,26v1a1,1,0,0,0,1,1h50a1,1,0,0,0,1-1v-1A26.029,26.029,0,0,0,60.133,42.667Zm-24,26a24,24,0,1,1,48,0Z" transform="translate(-34.133 -42.667)" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_908" data-name="Grupo 908" transform="translate(11.626 16.407)">
+    <g id="Grupo_907" data-name="Grupo 907">
+      <path id="Trazado_1321" data-name="Trazado 1321" d="M101.135,140.006a22.354,22.354,0,0,0-1.926,2.5l1.667,1.1a20.436,20.436,0,0,1,1.754-2.278Z" transform="translate(-99.209 -140.006)" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_910" data-name="Grupo 910" transform="translate(14.945 9)">
+    <g id="Grupo_909" data-name="Grupo 909">
+      <path id="Trazado_1322" data-name="Trazado 1322" d="M142.586,76.8a21.921,21.921,0,0,0-15.055,5.972l1.37,1.457A19.925,19.925,0,0,1,142.587,78.8Z" transform="translate(-127.531 -76.8)" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_912" data-name="Grupo 912" transform="translate(27)">
+    <g id="Grupo_911" data-name="Grupo 911">
+      <rect id="Rectángulo_1119" data-name="Rectángulo 1119" width="6" height="2" fill="#0087ae"/>
+    </g>
+  </g>
+  <g id="Grupo_914" data-name="Grupo 914" transform="translate(29 1)">
+    <g id="Grupo_913" data-name="Grupo 913">
+      <rect id="Rectángulo_1120" data-name="Rectángulo 1120" width="2" height="5" fill="#0087ae"/>
+    </g>
+  </g>
+</svg>
