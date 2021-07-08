@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./css/glider.min.css">
+    <link rel="stylesheet" href="./css/glide.core.min.css">
+    <script src="./js/glide.min.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
     <section class="top-section">
         <div class="container top-section__first space-between">
             <figure class="top-section__image">
-                <img src="./img/logo-quiero+.svg" alt="Logo Lo Quiero">
+                <a href="index.html"><img src="./img/logo-quiero+.svg" alt="Logo Lo Quiero"></a>
             </figure>
             <select name="" id="" class="top-section__select-input">
                 <option value="Arequipa">Arequipa</option>
@@ -30,67 +31,71 @@
     </section>
 
     <section class="carousel container">
-        <div class="carousel__container">
-				<button aria-label="anterior" class="carousel__prev carousel__arrow"><i class="fas fa-chevron-left"></i></button>
-                
-                <div class="carousel__list">
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/cuidado-personal.svg" alt="Cuidado personal">
-                        </figure>
-                        <p>Cuidado personal</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/salud.svg" alt="Salud">
-                        </figure>
-                        <p>Salud</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/educacion.svg" alt="Educación">
-                        </figure>
-                        <p>Educación</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/hogar-servicios.svg" alt="Hogar y Servicios">
-                        </figure>
-                        <p>Hogar y Servicios</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/moda-calzado.svg" alt="Moda y Calzado">
-                        </figure>
-                        <p>Moda y Calzado</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/restaurante.svg" alt="Restaurante">
-                        </figure>
-                        <p>Restaurante</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/viaje.svg" alt="Viajes">
-                        </figure>
-                        <p>Viajes</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/cuidado-personal.svg" alt="Cuidado personal">
-                        </figure>
-                        <p>Cuidado personal</p>
-                    </div>
-                    <div class="carousel__item">
-                        <figure class="carousel__image">
-                            <img src="./img/salud.svg" alt="Salud">
-                        </figure>
-                        <p>Salud</p>
-                    </div>
-                </div>
-
-				<button aria-label="anterior" class="carousel__next carousel__arrow"><i class="fas fa-chevron-right"></i></button>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides carousel__list">
+                    <li class="glide__slide">
+                        <a href="./detalle.html" href="./detalle.html" class="carousel__item">
+                            <figure class="carousel__image">
+                                <img src="./img/cuidado-personal.svg" alt="Cuidado personal">
+                            </figure>
+                            <p>Cuidado personal</p>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="./detalle.html" class="carousel__item">
+                            <figure class="carousel__image">
+                                <img src="./img/salud.svg" alt="Salud">
+                            </figure>
+                            <p>Salud</p>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="./detalle.html" class="carousel__item">
+                            <figure class="carousel__image">
+                                <img src="./img/educacion.svg" alt="Educación">
+                            </figure>
+                            <p>Educación</p>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="./detalle.html" class="carousel__item">
+                            <figure class="carousel__image">
+                                <img src="./img/hogar-servicios.svg" alt="Hogar y Servicios">
+                            </figure>
+                            <p>Hogar y Servicios</p>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="./detalle.html" class="carousel__item">
+                            <figure class="carousel__image">
+                                <img src="./img/moda-calzado.svg" alt="Moda y Calzado">
+                            </figure>
+                            <p>Moda y Calzado</p>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="./detalle.html" class="carousel__item">
+                            <figure class="carousel__image">
+                                <img src="./img/restaurante.svg" alt="Restaurante">
+                            </figure>
+                            <p>Restaurante</p>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="./detalle.html" class="carousel__item">
+                            <figure class="carousel__image">
+                                <img src="./img/viaje.svg" alt="Viajes">
+                            </figure>
+                            <p>Viajes</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left carousel__prev carousel__arrow" data-glide-dir="<"><i class="fas fa-chevron-left"></i></button>
+                <button class="glide__arrow glide__arrow--right carousel__next carousel__arrow" data-glide-dir=">"><i class="fas fa-chevron-right"></i></button>
+            </div>
         </div>
     </section>
 
@@ -253,7 +258,6 @@
     </section>
 
     <script src="https://kit.fontawesome.com/8241d0e582.js" crossorigin="anonymous"></script>
-	<script src="./js/glider.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>

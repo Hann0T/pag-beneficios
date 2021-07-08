@@ -1,27 +1,18 @@
-window.addEventListener('load', function() {
-    new Glider(document.querySelector('.carousel__list'), {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        draggable: 'true',
-        scrollLock: true,
-        arrows: {
-            prev: '.carousel__prev',
-            next: '.carousel__next'
+const config = {
+    type: 'carousel',
+    startAt: 0,
+    perView: 6,
+    gap: 20,
+    autoplay: 1800,
+    hoverpause: true,
+    perTouch: 2,
+    breakpoints: {
+        1024: {
+            perView: 4
         },
-        responsive: [
-            {
-                breakpoint: 375,
-                settings: {
-                slidesToShow: 4,
-                slidesToScroll: 4
-                }
-            },{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 6,
-                    slidesToScroll: 6
-                }
-            }
-        ]
-    })
-})
+        625: {
+            perView: 2
+        }
+    }
+}
+new Glide('.glide',config).mount()

@@ -142,10 +142,10 @@ ul {
 	line-height: 20px;
 }
 .carousel__prev {
-    left: -15px;
+    left: 0;
 }
 .carousel__next {
-    right: -15px;
+    right: 0;
 }
 
 /* Categories */
@@ -451,6 +451,12 @@ ul {
     }
     .collapse{
         order: 4;
+    }
+    .carousel__next {
+        right: -10px;
+    }
+    .carousel__prev {
+        left: -10px;
     }
 }
 @media screen and (max-width: 684px){
